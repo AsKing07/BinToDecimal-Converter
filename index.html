@@ -1,0 +1,51 @@
+<!-- Déclaration du type de document HTML -->
+<!DOCTYPE html>
+
+<!-- Début de la balise HTML avec la langue française définie -->
+<html lang="fr">
+
+<!-- Début de la balise head -->
+<head>
+  <!-- Définition de l'encodage des caractères -->
+  <meta charset="UTF-8">
+
+  <!-- Définition de l'affichage initial de la page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Lien vers le fichier CSS externe "styles.css" -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Titre de la page affiché dans l'onglet du navigateur -->
+  <title>Bin2Dec Converter</title>
+</head>
+
+<!-- Début de la balise body -->
+<body>
+  <!-- Conteneur principal de la page avec la classe "container" -->
+  <div class="container">
+    <!-- Titre principal de la page -->
+    <h1>Bin2Dec Converter</h1>
+
+    <!-- Étiquette pour le champ de saisie binaire avec l'attribut "for" -->
+    <label for="binaryInput">Entrez jusqu'à 8 chiffres binaires maximum :</label>
+
+    <!-- Champ de saisie de type texte pour les chiffres binaires avec l'identifiant "binaryInput" -->
+    <input type="text" id="binaryInput" maxlength="8" placeholder="Ex: 110101">
+
+    <!-- Paragraphe pour afficher le résultat de la conversion en décimal avec l'identifiant "decimalOutput" -->
+    <p id="decimalOutput">Équivalent décimal : </p>
+
+    <!-- Paragraphe pour afficher les messages d'erreur avec l'identifiant "error" et la classe "error-message" -->
+    <p id="error" class="error-message"></p>
+
+    <!-- Bouton pour lancer la conversion -->
+    <button id="convertBtn">Convertir</button>
+  </div>
+
+  <!-- Lien vers le fichier JavaScript externe "script.js" -->
+  <script src="script.js"></script>
+</body>
+<!-- Fin de la balise body -->
+
+<!-- Fin de la balise HTML -->
+</html>
