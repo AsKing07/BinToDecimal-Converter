@@ -39,3 +39,15 @@ binaryInput.addEventListener("input", function () {
     }
   }
 });
+
+ // Écouteur d'événement pour changer le thème
+const toggleThemeBtn = document.getElementById('toggleThemeBtn');
+
+
+    toggleThemeBtn.onclick = () =>{
+    const body = document.body;
+    body.classList.toggle("Theme");
+
+    const container = document.getElementById('container');
+    container.classList.toggle("Theme");
+}

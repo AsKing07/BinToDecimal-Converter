@@ -9,6 +9,12 @@ body {
   color: white; /* Couleur du texte */
 }
 
+.Theme
+{
+  background-color: white !important;
+  color: #121212 !important;
+}
+
 .container {
   text-align: center;
   background-color: #212121; /* Couleur de fond de la boîte */
